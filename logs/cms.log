@@ -1,0 +1,30 @@
+2021-01-15T15:20:24,627 INFO  [orange.cms.CmsApplication] [restartedMain] Starting CmsApplication using Java 11.0.9.1 on bogon with PID 5666 (/Users/zhangjiapei/IdeaProjects/cms2/build/classes/java/main started by zhangjiapei in /Users/zhangjiapei/IdeaProjects/cms2)
+2021-01-15T15:20:24,637 INFO  [orange.cms.CmsApplication] [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-15T15:20:24,689 INFO  [devtools.env.DevToolsPropertyDefaultsPostProcessor] [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-15T15:20:24,690 INFO  [devtools.env.DevToolsPropertyDefaultsPostProcessor] [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-15T15:20:25,093 INFO  [repository.config.RepositoryConfigurationDelegate] [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-15T15:20:25,130 INFO  [repository.config.RepositoryConfigurationDelegate] [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2021-01-15T15:20:25,500 INFO  [embedded.tomcat.TomcatWebServer] [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-15T15:20:25,509 INFO  [coyote.http11.Http11NioProtocol] [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-15T15:20:25,510 INFO  [catalina.core.StandardService] [restartedMain] Starting service [Tomcat]
+2021-01-15T15:20:25,511 INFO  [catalina.core.StandardEngine] [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-15T15:20:25,563 INFO  [[Tomcat].[localhost].[/]] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-15T15:20:25,563 INFO  [servlet.context.ServletWebServerApplicationContext] [restartedMain] Root WebApplicationContext: initialization completed in 872 ms
+2021-01-15T15:20:25,656 INFO  [internal.util.LogHelper] [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-15T15:20:25,685 INFO  [org.hibernate.Version] [restartedMain] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-15T15:20:25,803 INFO  [annotations.common.Version] [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-15T15:20:25,873 INFO  [zaxxer.hikari.HikariDataSource] [restartedMain] HikariPool-1 - Starting...
+2021-01-15T15:20:25,966 INFO  [zaxxer.hikari.HikariDataSource] [restartedMain] HikariPool-1 - Start completed.
+2021-01-15T15:20:25,975 INFO  [hibernate.dialect.Dialect] [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-15T15:20:26,474 INFO  [platform.internal.JtaPlatformInitiator] [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-15T15:20:26,496 INFO  [orm.jpa.LocalContainerEntityManagerFactoryBean] [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15T15:20:26,546 INFO  [devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] LiveReload server is running on port 35729
+2021-01-15T15:20:27,005 WARN  [orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-15T15:20:27,078 INFO  [scheduling.concurrent.ThreadPoolTaskExecutor] [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-15T15:20:27,233 INFO  [coyote.http11.Http11NioProtocol] [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-15T15:20:27,265 INFO  [embedded.tomcat.TomcatWebServer] [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-15T15:20:27,274 INFO  [orange.cms.CmsApplication] [restartedMain] Started CmsApplication in 2.925 seconds (JVM running for 3.789)
+2021-01-15T15:20:33,790 INFO  [[Tomcat].[localhost].[/]] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-15T15:20:33,791 INFO  [web.servlet.DispatcherServlet] [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-01-15T15:20:33,792 INFO  [web.servlet.DispatcherServlet] [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-01-15T15:20:33,860 INFO  [cms.controller.PersonController] [http-nio-8080-exec-2] Person(id=0, name=张三, age=12, sex=0)
